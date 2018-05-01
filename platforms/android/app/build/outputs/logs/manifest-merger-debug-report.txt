@@ -1,0 +1,136 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:3:2-45
+		INJECTED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:5:2-27
+		INJECTED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:4:2-25
+		INJECTED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:2:11-69
+supports-screens
+ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:7:2-11:33
+	android:largeScreens
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:10:3-30
+	android:smallScreens
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:8:3-30
+	android:normalScreens
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:9:3-31
+	android:xlargeScreens
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:11:3-31
+uses-sdk
+ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:13:2-15:34
+MERGED from [:nativescript-optimized:] C:\Users\Sebben\.android\build-cache\12dc3b69b11c0cb7b872d322f1379cf3d1748ed6\output\AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] C:\Users\Sebben\.android\build-cache\357d42ccdc2d08d9f9121cc50517287bc6c94a88\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\da64460cbfecb8a4aa59455a5e2d88bd2f7ef3dd\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\cec7394b57739ddda3d4381b6eba1317991b6147\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\7e5b701d293f86be9d830ef2287067b2a17499d8\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\4a8f451740483ddc9df43ab558ea42cfaf7bd1fa\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\24273a656dc868019e1f994917bfdc3f5fa94a52\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\072ad4265b75c0d02e1e8b7a8adc551227da91a7\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\257ce87b9d1111d5c4542a0d721bc7ef1cb86125\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\6932fb6b2dd0068e36083424712360eb0002e4aa\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\f1463478a460f41efd5aba161478fb8d159f6afe\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\0774a988f221d8b136d318639d799de541d4c408\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\39aae5e35278449c6ab22d30cffa4ffa5121bb5f\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\c20b2a22af8fc3cb63d6832ae45966b0f92bcba1\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\da64460cbfecb8a4aa59455a5e2d88bd2f7ef3dd\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:15:3-32
+		INJECTED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:14:3-29
+		INJECTED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:17:2-76
+	android:name
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:17:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:18:2-77
+	android:name
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:18:19-75
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:19:2-63
+	android:name
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:19:19-61
+application
+ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:21:2-42:16
+MERGED from [:widgets-release:] C:\Users\Sebben\.android\build-cache\357d42ccdc2d08d9f9121cc50517287bc6c94a88\output\AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\da64460cbfecb8a4aa59455a5e2d88bd2f7ef3dd\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\cec7394b57739ddda3d4381b6eba1317991b6147\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\7e5b701d293f86be9d830ef2287067b2a17499d8\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\4a8f451740483ddc9df43ab558ea42cfaf7bd1fa\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\072ad4265b75c0d02e1e8b7a8adc551227da91a7\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\257ce87b9d1111d5c4542a0d721bc7ef1cb86125\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\6932fb6b2dd0068e36083424712360eb0002e4aa\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\f1463478a460f41efd5aba161478fb8d159f6afe\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\0774a988f221d8b136d318639d799de541d4c408\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\39aae5e35278449c6ab22d30cffa4ffa5121bb5f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\c20b2a22af8fc3cb63d6832ae45966b0f92bcba1\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:25:3-35
+	android:allowBackup
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:23:3-29
+	android:icon
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:24:3-32
+	android:theme
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:26:3-34
+	android:name
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:22:3-49
+activity#com.tns.NativeScriptActivity
+ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:28:3-40:14
+	android:label
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:30:4-49
+	android:configChanges
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:31:4-65
+	android:theme
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:32:4-44
+	android:name
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:29:4-47
+meta-data#SET_THEME_ON_LAUNCH
+ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:34:4-87
+	android:resource
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:34:50-84
+	android:name
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:34:15-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:36:4-39:20
+action#android.intent.action.MAIN
+ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:37:5-57
+	android:name
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:37:13-54
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:38:5-65
+	android:name
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:38:15-62
+activity#com.tns.ErrorReportActivity
+ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:41:3-57
+	android:name
+		ADDED from C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\AndroidManifest.xml:41:13-55
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\da64460cbfecb8a4aa59455a5e2d88bd2f7ef3dd\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\cec7394b57739ddda3d4381b6eba1317991b6147\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\7e5b701d293f86be9d830ef2287067b2a17499d8\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\4a8f451740483ddc9df43ab558ea42cfaf7bd1fa\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\24273a656dc868019e1f994917bfdc3f5fa94a52\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\072ad4265b75c0d02e1e8b7a8adc551227da91a7\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\257ce87b9d1111d5c4542a0d721bc7ef1cb86125\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\6932fb6b2dd0068e36083424712360eb0002e4aa\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\f1463478a460f41efd5aba161478fb8d159f6afe\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\0774a988f221d8b136d318639d799de541d4c408\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\39aae5e35278449c6ab22d30cffa4ffa5121bb5f\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\c20b2a22af8fc3cb63d6832ae45966b0f92bcba1\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\da64460cbfecb8a4aa59455a5e2d88bd2f7ef3dd\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Sebben\.android\build-cache\da64460cbfecb8a4aa59455a5e2d88bd2f7ef3dd\output\AndroidManifest.xml:26:9-47

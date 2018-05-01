@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Sebben\\Documents\\repos\\HelloWorld\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Sebben\\.android\\build-cache\\cec7394b57739ddda3d4381b6eba1317991b6147\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sebben\\Documents\\repos\\HelloWorld\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Sebben\\.android\\build-cache\\cec7394b57739ddda3d4381b6eba1317991b6147\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sebben\\Documents\\repos\\pension-countdown\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Sebben\\.android\\build-cache\\cec7394b57739ddda3d4381b6eba1317991b6147\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sebben\\Documents\\repos\\pension-countdown\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Sebben\\.android\\build-cache\\cec7394b57739ddda3d4381b6eba1317991b6147\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    }
+]
