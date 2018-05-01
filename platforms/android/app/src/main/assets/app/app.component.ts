@@ -6,6 +6,10 @@ import { Component } from "@angular/core";
   styleUrls: ['app.component.css']
 })
 export class AppComponent {
-  constructor() {
+  changeDate() {
+    console.log('KLICKAD dateumbytare...');
   }
+  // constructor() {
+  //   // width 576 = 66+ dagar kvar
+  // }
 }
