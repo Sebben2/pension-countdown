@@ -7,9 +7,13 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   changeDate() {
-    console.log('KLICKAD dateumbytare...');
+    this.daysLeft--;
+    const widthIncrement = 7.833333333333;  
+    this.fullCombWidth = 60 + Math.floor(this.daysLeft*widthIncrement);
+    console.log('daysLeft är '+this.daysLeft+', satt width till '+this.fullCombWidth);
   }
-  // constructor() {
-  //   // width 576 = 66+ dagar kvar
-  // }
+  daysLeft = 66;
+  fullCombWidth = 577;
+  constructor() {
+  }
 }

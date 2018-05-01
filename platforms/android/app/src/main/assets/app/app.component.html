@@ -1,6 +1,6 @@
 <ActionBar title="Pensionskammen" class="action-bar"></ActionBar>
 <AbsoluteLayout >
     <Image left="0" top="0" width="1280" height="600" src="~/images/comb_0_small.jpg" stretch="none"></Image>
-    <Image left="0" top="0" width="576" height="600" src="~/images/comb_small.jpg" stretch="none"></Image>
+    <Image left="0" top="0" [width]="fullCombWidth" height="600" src="~/images/comb_small.jpg" stretch="none"></Image>
     <Button left="500" top="10" text="Byt datum" (tap)="changeDate()" class="btn btn-active"></Button>    
 </AbsoluteLayout>
