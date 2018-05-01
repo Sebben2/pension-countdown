@@ -1,7 +1,11 @@
 C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\assets\app\app.component.js
 C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\assets\app\app.module.js
+C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\assets\app\comb.component.js
+C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\assets\app\comb.module.js
 C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\assets\app\main.aot.js
 C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\assets\app\main.js
+C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\assets\app\on-tap.js
+C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\assets\app\particle.js
 C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\assets\app\tns_modules\nativescript-angular\common.js
 C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\assets\app\tns_modules\nativescript-angular\dom-adapter.js
 C:\Users\Sebben\Documents\repos\pension-countdown\platforms\android\app\src\main\assets\app\tns_modules\nativescript-angular\element-registry.js
