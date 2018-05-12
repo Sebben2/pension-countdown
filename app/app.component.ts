@@ -6,10 +6,10 @@ import { Component } from "@angular/core";
   styleUrls: ['app.component.css']
 })
 export class AppComponent {
-  changeDate() {
-    this.daysLeft--;
+  detractOneDay() {
+    if(this.daysLeft>0) {this.daysLeft--;}  // don't go negative
     const widthIncrement = 7.833333333333;  
-    this.fullCombWidth = 60 + Math.floor(this.daysLeft*widthIncrement);
+    this.fullCombWidth = Math.max(60 + Math.floor(this.daysLeft*widthIncrement),0); // cap min width at 0
     console.log('daysLeft är '+this.daysLeft+', satt width till '+this.fullCombWidth);
   }
   daysLeft = 66;
