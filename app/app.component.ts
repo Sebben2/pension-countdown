@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import * as appSettings from "application-settings";
 
 @Component({
   selector: "days-counter",
@@ -6,18 +7,15 @@ import { Component } from "@angular/core";
   styleUrls: ['app.component.css']
 })
 export class AppComponent {
-  detractOneDay() {
-    this.pensionDate = new Date(this.pensionDate.setDate(this.pensionDate.getDate() - 1));
-    this.updateComb();
-  }
-  addOneDay() {
-    this.pensionDate = new Date(this.pensionDate.setDate(this.pensionDate.getDate() + 1));
+  addDays(days) {
+    this.pensionDate = new Date(this.pensionDate.setDate(this.pensionDate.getDate() + days));
+    appSettings.setNumber('pensionDate',this.pensionDate.valueOf());
     this.updateComb();
   }
   updateComb() {
     this.daysLeft = this.updateDaysLeft();
     this.fullCombWidth = this.updateCombWidth();
-    console.log('daysLeft är '+this.daysLeft+', satt width till '+this.fullCombWidth);
+    console.log('daysLeft är '+this.daysLeft+', pensionDate är '+appSettings.getNumber('pensionDate'));
   }
   updateDaysLeft() {
     return Math.max(Math.round((this.pensionDate.valueOf() - (new Date()).valueOf())/(1000*60*60*24)),0);
@@ -26,7 +24,7 @@ export class AppComponent {
     const widthIncrement = 7.833333333333;  
     return Math.max(60 + Math.floor(this.daysLeft*widthIncrement),0);
   }
-  pensionDate = new Date(2018,8,15);
+  pensionDate = new Date(appSettings.getNumber('pensionDate',(new Date(2018,8,15)).valueOf()));
   daysLeft = this.updateDaysLeft();
   fullCombWidth = this.updateCombWidth();
   constructor() {
