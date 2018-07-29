@@ -7,24 +7,27 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   detractOneDay() {
-    if(this.daysLeft>0) {this.daysLeft--;}  // don't go negative
+    this.pensionDate = new Date(this.pensionDate.setDate(this.pensionDate.getDate() - 1));
     this.updateComb();
   }
   addOneDay() {
-    this.daysLeft++;
+    this.pensionDate = new Date(this.pensionDate.setDate(this.pensionDate.getDate() + 1));
     this.updateComb();
   }
   updateComb() {
     const widthIncrement = 7.833333333333;  
+    this.daysLeft = this.updateDaysLeft();
     this.fullCombWidth = Math.max(60 + Math.floor(this.daysLeft*widthIncrement),0); // cap min width at 0
     console.log('daysLeft är '+this.daysLeft+', satt width till '+this.fullCombWidth);
-    this.pensionDate = this.updatePensiondate();
   }
-  updatePensiondate() {
-    return (new Date()).setDate((new Date()).getDate() + this.daysLeft);
+  updateDaysLeft() {
+    return Math.max(Math.round((this.pensionDate.valueOf() - (new Date()).valueOf())/(1000*60*60*24)),0);
   }
-  daysLeft = 66;
-  pensionDate = this.updatePensiondate();
+  pensionDateFormatted() {
+    return this.pensionDate.toLocaleDateString();
+  }
+  pensionDate = new Date(2018,8,15);
+  daysLeft = this.updateDaysLeft();
   fullCombWidth = 577;
   constructor() {
   }
