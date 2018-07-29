@@ -15,20 +15,20 @@ export class AppComponent {
     this.updateComb();
   }
   updateComb() {
-    const widthIncrement = 7.833333333333;  
     this.daysLeft = this.updateDaysLeft();
-    this.fullCombWidth = Math.max(60 + Math.floor(this.daysLeft*widthIncrement),0); // cap min width at 0
+    this.fullCombWidth = this.updateCombWidth();
     console.log('daysLeft är '+this.daysLeft+', satt width till '+this.fullCombWidth);
   }
   updateDaysLeft() {
     return Math.max(Math.round((this.pensionDate.valueOf() - (new Date()).valueOf())/(1000*60*60*24)),0);
   }
-  pensionDateFormatted() {
-    return this.pensionDate.toLocaleDateString();
+  updateCombWidth() {
+    const widthIncrement = 7.833333333333;  
+    return Math.max(60 + Math.floor(this.daysLeft*widthIncrement),0);
   }
   pensionDate = new Date(2018,8,15);
   daysLeft = this.updateDaysLeft();
-  fullCombWidth = 577;
+  fullCombWidth = this.updateCombWidth();
   constructor() {
   }
 }
