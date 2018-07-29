@@ -18,13 +18,13 @@ export class AppComponent {
     const widthIncrement = 7.833333333333;  
     this.fullCombWidth = Math.max(60 + Math.floor(this.daysLeft*widthIncrement),0); // cap min width at 0
     console.log('daysLeft är '+this.daysLeft+', satt width till '+this.fullCombWidth);
-    this.updatePensiondate();
+    this.pensionDate = this.updatePensiondate();
   }
   updatePensiondate() {
-    this.pensionDate = (new Date()).setDate((new Date()).getDate() + this.daysLeft);
+    return (new Date()).setDate((new Date()).getDate() + this.daysLeft);
   }
   daysLeft = 66;
-  pensionDate = (new Date()).setDate((new Date()).getDate() + this.daysLeft);
+  pensionDate = this.updatePensiondate();
   fullCombWidth = 577;
   constructor() {
   }
