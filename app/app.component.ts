@@ -24,9 +24,13 @@ export class AppComponent {
     const widthIncrement = 7.833333333333;  
     return Math.max(60 + Math.floor(this.daysLeft*widthIncrement),0);
   }
-  pensionDate = new Date(appSettings.getNumber('pensionDate',(new Date(2018,8,15)).valueOf()));
+  toggleModificationVisibility() {
+    this.dateModificationVisibility = this.dateModificationVisibility == "hidden" ? "visible" : "hidden";
+  }
+  pensionDate = new Date(appSettings.getNumber('pensionDate',(new Date(2018,9,3)).valueOf()));
   daysLeft = this.updateDaysLeft();
   fullCombWidth = this.updateCombWidth();
+  dateModificationVisibility = "hidden";
   constructor() {
   }
 }
