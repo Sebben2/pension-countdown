@@ -17,8 +17,8 @@ export class AppComponent {
     this.fullCombWidth = this.updateCombWidth();
     console.log('daysLeft är '+this.daysLeft+', pensionDate är '+appSettings.getNumber('pensionDate'));
   }
-  updateDaysLeft() {
-    return Math.max(Math.round((this.pensionDate.valueOf() - (new Date()).valueOf())/(1000*60*60*24)),0);
+  updateDaysLeft() {    
+    return Math.max(Math.ceil((this.pensionDate.valueOf() - (new Date()).valueOf())/(1000*60*60*24)),0);
   }
   updateCombWidth() {
     const widthIncrement = 7.833333333333;  
