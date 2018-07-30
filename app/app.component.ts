@@ -1,5 +1,6 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import * as appSettings from "application-settings";
+import {Observable, Subscriber} from "rxjs";
 
 @Component({
   selector: "days-counter",
@@ -31,6 +32,8 @@ export class AppComponent {
   daysLeft = this.updateDaysLeft();
   fullCombWidth = this.updateCombWidth();
   dateModificationVisibility = "hidden";
+  currentTime = new Date();
   constructor() {
+    setInterval(() => (this.currentTime = new Date()), 5000);
   }
 }
