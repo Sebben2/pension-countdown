@@ -1,6 +1,5 @@
 import { Component, OnInit } from "@angular/core";
 import * as appSettings from "application-settings";
-import {Observable, Subscriber} from "rxjs";
 
 @Component({
   selector: "days-counter",
@@ -15,8 +14,7 @@ export class AppComponent {
   }
   updateComb() {
     this.daysLeft = this.updateDaysLeft();
-    this.fullCombWidth = this.updateCombWidth();
-    console.log('daysLeft är '+this.daysLeft+', pensionDate är '+appSettings.getNumber('pensionDate'));
+    this.fullCombWidth = this.updateCombWidth();    
   }
   updateDaysLeft() {    
     return Math.max(Math.ceil((this.pensionDate.valueOf() - (new Date()).valueOf())/(1000*60*60*24)),0);
@@ -32,8 +30,8 @@ export class AppComponent {
   daysLeft = this.updateDaysLeft();
   fullCombWidth = this.updateCombWidth();
   dateModificationVisibility = "hidden";
-  currentTime = new Date();
   constructor() {
-    setInterval(() => (this.currentTime = new Date()), 5000);
+    // comb must be updated to reflect the amount of days left
+    setInterval(() => this.updateComb(), 60000);
   }
 }
