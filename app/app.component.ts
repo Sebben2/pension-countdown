@@ -26,6 +26,9 @@ export class AppComponent {
   toggleModificationVisibility() {
     this.dateModificationVisibility = this.dateModificationVisibility == "hidden" ? "visible" : "hidden";
   }
+  editButtonStyle() {
+    return (this.dateModificationVisibility == "hidden" ? "btn btn-secondary" : "btn btn-primary");
+  }
   pensionDate = new Date(appSettings.getNumber('pensionDate',(new Date(2018,9,3)).valueOf()));
   daysLeft = this.updateDaysLeft();
   fullCombWidth = this.updateCombWidth();
