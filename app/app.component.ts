@@ -1,5 +1,6 @@
-import { Component, OnInit } from "@angular/core";
+import { Component } from "@angular/core";
 import * as appSettings from "application-settings";
+import { keepAwake, allowSleepAgain } from "nativescript-insomnia";
 
 @Component({
   selector: "days-counter",
@@ -36,5 +37,8 @@ export class AppComponent {
   constructor() {
     // comb must be updated to reflect the amount of days left
     setInterval(() => this.updateComb(), 60000);
+    keepAwake().then(function() {
+      console.log("Insomnia is active");
+    })
   }
 }
