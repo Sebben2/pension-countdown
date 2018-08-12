@@ -1,6 +1,8 @@
 import { Component } from "@angular/core";
 import * as appSettings from "application-settings";
 import { keepAwake, allowSleepAgain } from "nativescript-insomnia";
+import * as application from "application";
+declare var android: any;
 
 @Component({
   selector: "days-counter",
@@ -40,5 +42,13 @@ export class AppComponent {
     keepAwake().then(function() {
       console.log("Insomnia is active");
     })
+    let window = application.android.startActivity.getWindow();
+    let decorView = window.getDecorView();
+    decorView.setSystemUiVisibility(android.view.View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+      | android.view.View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+      | android.view.View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+      | android.view.View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+      | android.view.View.SYSTEM_UI_FLAG_FULLSCREEN
+      | android.view.View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
   }
 }
